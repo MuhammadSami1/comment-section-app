@@ -229,11 +229,11 @@ export default function Home() {
                     </div>
                   </motion.div>
                   {item.replys.length > 0 && (
-                    <div className="flex flex-col ml-auto justify-end">
+                    <div className="flex flex-col items-end">
                       {item.replys.map((reply: string) => (
                         <div
                           key={item.id}
-                          className="h-10 w-64 p-1 border bg-white rounded-xl text-black"
+                          className="h-10 w-64 p-1 mb-3 border bg-white rounded-xl text-black"
                         >
                           {reply}
                         </div>
